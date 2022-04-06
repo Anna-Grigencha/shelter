@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about-style.css" />
+    <link rel="stylesheet" href="css/donation-style.css" />
+    <link rel="stylesheet" href="css/help-style.css" />
+    <link rel="stylesheet" href="css/pets-style.css" />
+    <link rel="stylesheet" href="css/footer-style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,19 +18,20 @@
         <div class="header-container container">
           <div class="logo">
             <h1 class="logo-title">Cozy House</h1>
-            <div class="logo-subtitle font-arial">
-              Shelter for pets in Boston
-            </div>
+            <p class="logo-subtitle font-arial">Shelter for pets in Boston</p>
           </div>
           <nav class="header-nav">
             <ul class="header-list">
               <li>
-                <a href="#about" class="header-link link-active font-arial"
+                <a href="" class="header-link link-active font-arial"
                   >About the shelter</a
                 >
+                <div class="link-active-line"></div>
               </li>
               <li>
-                <a href="#our-pets" class="header-link font-arial">Our pets</a>
+                <a href="../pets/index.html" class="header-link font-arial"
+                  >Our pets</a
+                >
               </li>
               <li>
                 <a href="#help-the-shelter" class="header-link font-arial"
@@ -62,14 +68,18 @@
               in the world, you will see!</span
             >
             <div class="button-padding">
-              <button class="button-primery">Make a friend</button>
+              <a href="#our-pets" class="button-primery"> Make a friend </a>
             </div>
           </div>
           <div class="photo"></div>
         </section>
-        <section class="about-section container">
+        <section class="about-section container" id="about">
           <div class="about-photo-container">
-            <img src="about-pets.png" class="about-photo" alt="about-photo" />
+            <img
+              src="../../assets/img/about-pets.png"
+              class="about-photo"
+              alt="about-photo"
+            />
           </div>
 
           <div class="about-text">
@@ -99,7 +109,172 @@
             >
           </div>
         </section>
+        <section class="pets-container container" id="our-pets">
+          <div class="section-heading">
+            <span>Our friends who</span>
+            <span>are looking for a house</span>
+          </div>
+
+          <div class="pets-cards-wrapper">
+            <button class="button-arrow">
+              <div class="arrow-left"></div>
+            </button>
+            <div class="pets-cards">
+              <div class="pets-card">
+                <img src="../../assets/img/pets-katrine.png" alt="card" />
+                <p class="pets-card-name">Katrine</p>
+                <div class="pets-button-padding">
+                  <button class="pets-card-button">Learn more</button>
+                </div>
+              </div>
+              <div class="pets-card">
+                <img src="../../assets/img/pets-jennifer.png" alt="card" />
+                <p class="pets-card-name">Jennifer</p>
+                <div class="pets-button-padding">
+                  <button class="pets-card-button">Learn more</button>
+                </div>
+              </div>
+              <div class="pets-card">
+                <img src="../../assets/img/pets-woody.png" alt="card" />
+                <p class="pets-card-name">Woody</p>
+                <div class="pets-button-padding">
+                  <button class="pets-card-button">Learn more</button>
+                </div>
+              </div>
+            </div>
+
+            <button class="button-arrow">
+              <div class="arrow-right"></div>
+            </button>
+          </div>
+
+          <p>
+            <a href="../pets/index.html" class="pets-button"
+              >Get to know the rest</a
+            >
+          </p>
+        </section>
+        <section class="help-container container" id="help-the-shelter">
+          <div class="section-heading">
+            <span>How you can help</span>
+            <span>our shelter</span>
+          </div>
+          <div class="help-cards font-georgia">
+            <div class="help-card help-card1">
+              <div class="help-icon icon-pet-food"></div>
+              <p class="help-text">Pet food</p>
+            </div>
+            <div class="help-card help-card2">
+              <div class="help-icon icon-transportation"></div>
+              <p class="help-text">Transportation</p>
+            </div>
+            <div class="help-card help-card3">
+              <div class="help-icon icon-toys"></div>
+              <p class="help-text">Toys</p>
+            </div>
+            <div class="help-card help-card4">
+              <div class="help-icon icon-bowls-and-cups"></div>
+              <p class="help-text">Bowls and cups</p>
+            </div>
+            <div class="help-card help-card5">
+              <div class="help-icon icon-shampoos"></div>
+              <p class="help-text">Shampoos</p>
+            </div>
+
+            <div class="help-card">
+              <div class="help-icon icon-vitamins"></div>
+              <p class="help-text">Vitamins</p>
+            </div>
+            <div class="help-card">
+              <div class="help-icon icon-medicines"></div>
+              <p class="help-text">Medicines</p>
+            </div>
+            <div class="help-card">
+              <div class="help-icon icon-collars-leashes"></div>
+              <p class="help-text">Collars / leashes</p>
+            </div>
+            <div class="help-card">
+              <div class="help-icon icon-sleeping-area"></div>
+              <p class="help-text">Sleeping areas</p>
+            </div>
+          </div>
+        </section>
+        <section class="donation-container container">
+          <div class="donation-dog"></div>
+          <div class="donation-information">
+            <div class="donation-heading">
+              <span
+                >You can also <br />
+                make a donation</span
+              >
+            </div>
+            <p class="font-georgia donation-subheading">
+              Name of the bank / Type of bank account
+            </p>
+            <div class="credit-card-content">
+              <div class="credit-card"></div>
+              <div>
+                <a href="##" class="font-georgia number-credit-card">
+                  8380 2880 8028 8791 7435
+                </a>
+              </div>
+            </div>
+            <p class="donation-text">
+              Legal information and lorem ipsum dolor sit amet, consectetur
+              <br />
+              adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed
+              ac <br />
+              diam. Praesent ultrices maximus tortor et vulputate. Interdum et
+              <br />
+              malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+          </div>
+        </section>
       </main>
+      <footer class="footer-container" id="contacts">
+        <div class="contacts">
+          <p class="font-georgia footer-title">
+            For questions <br />
+            and suggestions
+          </p>
+          <div class="information-wrapper">
+            <div>
+              <a href="mailto:email@shelter.com"
+                ><div class="icon-email"></div
+              ></a>
+            </div>
+            <div class="footer-text font-georgia">
+              <a href="mailto:email@shelter.com">email@shelter.com</a>
+            </div>
+          </div>
+          <div class="information-wrapper">
+            <div>
+              <a href="tel:+136745677554"><div class="icon-phone"></div></a>
+            </div>
+            <div class="footer-text font-georgia">
+              <a href="tel:+136745677554">+13 674 567 75 54</a>
+            </div>
+          </div>
+        </div>
+        <div class="location">
+          <p class="font-georgia footer-title">
+            We are waiting <br />
+            for your visit
+          </p>
+          <div class="information-wrapper location-boston-wrapper">
+            <div class="icon-marker"></div>
+            <div class="footer-text font-georgia">
+              1 Central Street, Boston <br />
+              (entrance from the store)
+            </div>
+          </div>
+          <div class="information-wrapper location-london-wrapper">
+            <div class="icon-marker"></div>
+            <div class="footer-text font-georgia">18 South Park, London</div>
+          </div>
+        </div>
+        <div class="footer-photo"></div>
+      </footer>
     </div>
   </body>
 </html>
