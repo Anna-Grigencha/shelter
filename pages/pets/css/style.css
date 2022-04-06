@@ -2,48 +2,40 @@ html {
   scroll-behavior: smooth; /*чтобы прокрутка страницы по якорям проходила плавно*/
 }
 
-body {
-  /*background-color: black;*/
-}
-
 .content {
   color: #ffffff;
   /* position: relative;
-  background-image: url("../main/desktop1280.jpg");
+  background-image: url("../../../assets/img/our-pets-1280.jpg");
   width: 1280px;
-  height: 3798px;
+  height: 1812px;
   margin: 0 auto;
   opacity: 0.8;
-  z-index: -1;*/
+  z-index: 1;*/
 }
 
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .header-container {
-  background-color: black;
-  padding-left: 40px;
-  padding-right: 40px;
-
-  /*max-width: 1280px;*/
-  height: 180px;
+  /* background: url(noise_lines_transparent@2X.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;*/
+  background-color: #ffffff;
+  height: 120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  color: #ffffff;
-  /*padding-top: 60px;
-  padding-bottom: 60px;*/
+  /*color: #ffffff;*/
 }
 
 .logo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* padding-top: 60px;
-  padding-bottom: 60px;*/
 }
 
 .logo-title {
@@ -52,15 +44,10 @@ body {
   font-weight: normal;
   font-size: 32px;
   line-height: 110%;
-  /* or 35px */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
-
-  /* color-primary */
-
-  color: #f1cdb3;
+  color: #545454;
 }
 
 .font-arial {
@@ -73,6 +60,7 @@ body {
   font-family: Georgia;
   font-style: normal;
   font-weight: normal;
+  letter-spacing: 0.06em;
 }
 
 .logo-subtitle {
@@ -80,9 +68,15 @@ body {
   padding-top: 10px;
   font-size: 13px;
   line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #292929;
 }
 
 h1 {
+  margin: 0px;
+}
+
+h2 {
   margin: 0px;
 }
 
@@ -92,23 +86,19 @@ h1 {
   gap: 35px;
 }
 
+p {
+  margin: 0px;
+}
+
 .header-link {
   font-size: 15px;
   line-height: 160%;
-  /* identical to box height, or 24px */
-
-  /* color-dark-s */
-
-  color: #cdcdcd;
+  color: #545454;
   text-decoration: none;
 }
 
 .header-link:hover {
-  color: #bdae82;
-}
-
-.header-nav {
-  /*margin-left: auto;*/
+  color: #292929;
 }
 
 li {
@@ -121,13 +111,19 @@ ul {
 }
 
 .link-active {
-  color: #fafafa;
+  color: #292929;
+}
+
+.link-active-line {
+  width: 58px;
+  height: 3px;
+  top: 24px;
+  background: #f1cdb3;
 }
 
 .start-screen-container {
-  /*max-width: 1280px;*/
-  height: 728px;
-  background-color: #000000;
+  background: url(noise_lines_transparent@2X.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
@@ -136,7 +132,7 @@ ul {
 }
 
 .photo {
-  background-image: url("../main/start-screen-puppy.png");
+  background-image: url("../../../assets/img/start-screen-puppy.png");
   width: 698px;
   height: 728px;
 }
@@ -144,7 +140,6 @@ ul {
 .start-screen-content {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;*/
   padding-top: 163px;
 }
 
@@ -177,64 +172,26 @@ ul {
 
   width: 207px;
   height: 52px;
-  /*left: calc(50% - 207px / 2 - 496.5px);
-  bottom: 244px;*/
-
-  /* color-primary */
-
   background: #f1cdb3;
   border-radius: 100px;
+  border: 0;
+  cursor: pointer;
 }
 
 .button-padding {
   padding-top: 41px;
 }
 
-/*section about*/
-
-.about-section {
-  height: 408px;
-  padding-top: 80px;
-  display: flex;
-  /*justify-content: space-between;*/
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 100px;
-}
-
-.about-photo {
-  width: 300px;
-  height: 408px;
-}
-
-.about-photo-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 50%;
-}
-
-.about-text {
+.section-heading {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-
-.about-heading {
-  font-size: 35px;
-  line-height: 130%;
-  color: #545454;
-}
-
-.about-text {
-  font-size: 15px;
-  line-height: 160%;
-  color: #4c4c4c;
-}
-
-.about-subheading {
-  padding-top: 25px;
-}
-
-/*the end section about*/
