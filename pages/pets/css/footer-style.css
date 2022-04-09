@@ -36,6 +36,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 20px;
 }
 
 .icon-email {
@@ -51,10 +52,11 @@
 }
 
 .footer-text {
-  padding-left: 20px;
+  /*padding-left: 20px;*/
   font-size: 20px;
   line-height: 115%;
   color: #f1cdb3;
+  text-decoration: none;
 }
 
 .location {
@@ -76,4 +78,9 @@
   width: 22px;
   height: 32px;
   background-image: url("../../../assets/svg/icon-marker.svg");
+}
+
+a:link {
+  text-decoration: none;
+  color: #f1cdb3;
 }
