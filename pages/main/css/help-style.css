@@ -10,8 +10,8 @@
 
 .help-cards {
   padding-top: 60px;
-  padding-left: 87px;
-  padding-right: 87px;
+  /*padding-left: 87px;
+  padding-right: 87px;*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
