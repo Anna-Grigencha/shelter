@@ -4,7 +4,8 @@ html {
 
 .content {
   color: #ffffff;
-  /*position: relative;
+  width: 1280px;
+  /* position: relative;
   background-image: url("../../../assets/img/desktop1280.jpg");
   width: 1280px;
   height: 3798px;
