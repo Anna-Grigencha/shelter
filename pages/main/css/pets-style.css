@@ -18,6 +18,7 @@
 
 .pets-cards-wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   gap: 53px;
