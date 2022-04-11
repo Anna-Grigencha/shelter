@@ -66,6 +66,11 @@
   cursor: pointer;
 }
 
+.pets-card:hover .pets-card-button {
+  background-color: #fddcc4;
+  border: none;
+}
+
 .pets-card-name {
   padding-top: 30px;
   font-family: Georgia;
@@ -146,6 +151,11 @@
 .button-paginator-available {
   box-sizing: border-box;
   border: 2px solid #f1cdb3;
+}
+
+.button-paginator-available:hover {
+  background: #fddcc4;
+  border: none;
 }
 
 .button-paginator-active {

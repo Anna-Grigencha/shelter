@@ -181,6 +181,10 @@ ul {
   color: #292929;
 }
 
+.button-primery:hover {
+  background: #fddcc4;
+}
+
 /*.button-primery*/
 
 .button-padding {
