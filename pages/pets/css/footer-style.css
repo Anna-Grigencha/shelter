@@ -79,10 +79,10 @@
   background-image: url("../../../assets/svg/icon-marker.svg");
 }
 
-a:link {
+/*a:link {
   text-decoration: none;
   color: #f1cdb3;
-}
+}*/
 
 .footer-link {
   text-decoration: none;
