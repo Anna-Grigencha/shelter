@@ -22,18 +22,11 @@ html {
 }
 
 .header-container {
-  /* background: url(noise_lines_transparent@2X.png),
-    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;*/
-  /*height: 180px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  color: #ffffff;*/
   max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -188,8 +181,6 @@ ul {
 .button-primery:hover {
   background: #fddcc4;
 }
-
-/*.button-primery*/
 
 .button-padding {
   padding-top: 41px;
