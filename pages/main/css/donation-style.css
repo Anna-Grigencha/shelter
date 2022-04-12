@@ -1,4 +1,5 @@
 ﻿.donation-container {
+  background-color: #f6f6f6;
   padding-top: 80px;
   padding-bottom: 100px;
   display: flex;
@@ -48,6 +49,11 @@
   background: #f1cdb3;
   border-radius: 9px;
   gap: 15px;
+  cursor: pointer;
+}
+
+.credit-card-content:hover {
+  background: #fddcc4;
 }
 
 .credit-card {

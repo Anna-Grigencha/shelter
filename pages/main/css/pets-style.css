@@ -1,4 +1,5 @@
 ﻿.pets-container {
+  background-color: #f6f6f6;
   padding-top: 80px;
   padding-bottom: 100px;
   display: flex;
@@ -64,6 +65,7 @@
 }
 
 .pets-card {
+  background-color: #fafafa;
   display: flex;
   flex-direction: column;
   align-items: center;
