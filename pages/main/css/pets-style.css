@@ -77,6 +77,10 @@
   border: none;
 }
 
+.pets-card:hover {
+  background-color: #ffffff;
+}
+
 .pets-card-name {
   padding-top: 30px;
   font-family: Georgia;
