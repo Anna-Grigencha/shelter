@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth; /*чтобы прокрутка страницы по якорям проходила плавно*/
 }
 
+body {
+  margin: 0;
+}
+
 .content {
   color: #ffffff;
   max-width: 1280px;

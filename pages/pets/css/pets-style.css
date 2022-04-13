@@ -66,11 +66,16 @@
   flex-direction: column;
   align-items: center;
   cursor: pointer;
+  border-radius: 9px;
 }
 
 .pets-card:hover .pets-card-button {
   background-color: #fddcc4;
   border: none;
+}
+
+.pets-card:hover {
+  background-color: #ffffff;
 }
 
 .pets-card-name {
@@ -149,11 +154,13 @@
 .button-paginator-inactive {
   box-sizing: border-box;
   border: 2px solid #cdcdcd;
+  background-color: #f6f6f6;
 }
 
 .button-paginator-available {
   box-sizing: border-box;
   border: 2px solid #f1cdb3;
+  background-color: #f6f6f6;
 }
 
 .button-paginator-available:hover {
