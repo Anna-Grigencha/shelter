@@ -19,16 +19,16 @@ body {
   padding-right: 40px;
 }
 
-.header {
-  width: 1280px;
-  position: absolute;
-  padding: 60px 0 30px;
-}
-
 .header-container {
-  max-width: 1200px;
-  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/img/start-screen-gradient-background.png");
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-position: center 0 180px;
+  /*height: 180px;*/
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -40,9 +40,6 @@ body {
 }
 
 .logo-title {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
   font-size: 32px;
   line-height: 110%;
   display: flex;
@@ -122,9 +119,9 @@ ul {
 }
 
 .start-screen-container {
-  padding-top: 180px;
-  background: url(noise_lines_transparent@2X.png),
-    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+  background-image: url("../../../assets/img/start-screen-gradient-background.png");
+  background-position: center 0 -180px;
+  background-repeat: no-repeat;
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
@@ -145,9 +142,6 @@ ul {
 }
 
 .heading {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
   font-size: 44px;
   line-height: 130%;
   color: #ffffff;
@@ -191,9 +185,6 @@ ul {
 }
 
 .section-heading {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
   font-size: 35px;
   line-height: 130%;
   letter-spacing: 0.06em;
