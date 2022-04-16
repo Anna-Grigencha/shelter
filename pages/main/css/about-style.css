@@ -28,8 +28,13 @@
 }
 
 .about-heading {
+  /* font-family: Georgia;
+  font-style: normal;
+  font-weight: 400;*/
+  letter-spacing: 0.06em;
   font-size: 35px;
   line-height: 130%;
+
   color: #545454;
 }
 
