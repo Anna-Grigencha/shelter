@@ -58,7 +58,7 @@ body {
   font-family: Georgia;
   font-style: normal;
   font-weight: normal;
-  letter-spacing: 0.06em;
+  /*letter-spacing: 0.06em;*/
 }
 
 .logo-subtitle {
@@ -144,6 +144,7 @@ ul {
 .heading {
   font-size: 44px;
   line-height: 130%;
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
 
