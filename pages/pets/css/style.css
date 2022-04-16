@@ -35,9 +35,6 @@ body {
 }
 
 .logo-title {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
   font-size: 32px;
   line-height: 110%;
   display: flex;
@@ -139,14 +136,14 @@ ul {
   padding-top: 163px;
 }
 
-.heading {
+/*.heading {
   font-family: Georgia;
   font-style: normal;
   font-weight: normal;
   font-size: 44px;
   line-height: 130%;
   color: #ffffff;
-}
+}*/
 
 .subheading {
   font-size: 15px;
@@ -155,7 +152,7 @@ ul {
   padding-top: 42px;
 }
 
-.button-primery {
+/*.button-primery {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,15 +170,13 @@ ul {
   border: 0;
   cursor: pointer;
 }
+*/
 
 .button-padding {
   padding-top: 41px;
 }
 
 .section-heading {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
   font-size: 35px;
   line-height: 130%;
   letter-spacing: 0.06em;

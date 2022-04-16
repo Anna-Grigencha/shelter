@@ -115,7 +115,7 @@
   cursor: pointer;
 }
 
-.pets-button {
+/*.pets-button {
   width: 261px;
   height: 52px;
   background: #f1cdb3;
@@ -133,7 +133,7 @@
 .pets-button:hover {
   background-color: #fddcc4;
   cursor: pointer;
-}
+}*/
 
 .our-friends-navigation-wrapper {
   display: flex;
