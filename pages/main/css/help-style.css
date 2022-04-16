@@ -10,8 +10,6 @@
 
 .help-cards {
   padding-top: 60px;
-  /*padding-left: 87px;
-  padding-right: 87px;*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -70,23 +68,18 @@
 
 .help-card1 {
   width: 83px;
-  /* background: no-repeat;*/
 }
 
 .help-card2 {
   width: 150px;
-  /*background: no-repeat;*/
 }
 
 .help-card3 {
   width: 60px;
-
-  /*background: no-repeat;*/
 }
 
 .help-card4 {
   width: 154px;
-  /* background: no-repeat;*/
 }
 
 .help-card5 {

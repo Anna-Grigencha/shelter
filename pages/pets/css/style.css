@@ -114,16 +114,6 @@ ul {
   background: #f1cdb3;
 }
 
-.start-screen-container {
-  background: url(noise_lines_transparent@2X.png),
-    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
-  padding-left: 40px;
-  padding-right: 40px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .photo {
   background-image: url("../../../assets/img/start-screen-puppy.png");
   width: 698px;
@@ -136,41 +126,12 @@ ul {
   padding-top: 163px;
 }
 
-/*.heading {
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 44px;
-  line-height: 130%;
-  color: #ffffff;
-}*/
-
 .subheading {
   font-size: 15px;
   line-height: 160%;
   color: #cdcdcd;
   padding-top: 42px;
 }
-
-/*.button-primery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  line-height: 130%;
-
-  width: 207px;
-  height: 52px;
-  background: #f1cdb3;
-  border-radius: 100px;
-  border: 0;
-  cursor: pointer;
-}
-*/
 
 .button-padding {
   padding-top: 41px;
