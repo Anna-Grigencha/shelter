@@ -29,10 +29,6 @@
   width: 52px;
   height: 52px;
   left: 0px;
-  /*  top: 342px;*/
-
-  /* color-primary */
-
   border: 2px solid #f1cdb3;
   box-sizing: border-box;
   border-radius: 100px;
@@ -43,8 +39,6 @@
   justify-content: center;
   align-items: center;
   background: #f6f6f6;
-
-  /*background-image: no-repeat;*/
 }
 
 .button-arrow:hover {

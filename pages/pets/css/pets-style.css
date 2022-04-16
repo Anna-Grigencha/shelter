@@ -28,10 +28,6 @@
   width: 52px;
   height: 52px;
   left: 0px;
-  /*  top: 342px;*/
-
-  /* color-primary */
-
   border: 2px solid #f1cdb3;
   box-sizing: border-box;
   border-radius: 100px;
@@ -39,8 +35,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /*background-image: no-repeat;*/
 }
 
 .button-arrow:hover {
@@ -114,26 +108,6 @@
   background-color: #fddcc4;
   cursor: pointer;
 }
-
-/*.pets-button {
-  width: 261px;
-  height: 52px;
-  background: #f1cdb3;
-  border-radius: 100px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  line-height: 130%;
-  color: #292929;
-  border: 0;
-  cursor: pointer;
-}
-
-.pets-button:hover {
-  background-color: #fddcc4;
-  cursor: pointer;
-}*/
 
 .our-friends-navigation-wrapper {
   display: flex;
