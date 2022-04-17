@@ -75,3 +75,34 @@
   line-height: 18px;
   color: #b2b2b2;
 }
+
+@media screen and (max-width: 768px) {
+  .donation-container {
+    background-color: #f6f6f6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .donation-dog {
+    width: 505px;
+    height: 261px;
+    background-image: url("../../../assets/img/donation-dog.png");
+    align-self: center;
+    order: 2;
+  }
+
+  .donation-information {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 380px;
+    align-self: center;
+  }
+}
