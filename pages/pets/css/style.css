@@ -147,3 +147,16 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 768px;
+  }
+
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
