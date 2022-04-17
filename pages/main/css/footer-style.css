@@ -84,3 +84,13 @@
   text-decoration: none;
   color: #f1cdb3;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    gap: 60px;
+  }
+
+  .footer-photo {
+    margin-top: 5px;
+  }
+}
