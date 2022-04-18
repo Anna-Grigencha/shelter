@@ -207,6 +207,18 @@ ul {
   align-items: center;
 }
 
+.burger {
+  display: none;
+}
+
+.burger-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #f1cdb3;
+  z-index: 15;
+}
+
 @media screen and (max-width: 768px) {
   .content {
     max-width: 768px;
@@ -232,28 +244,6 @@ ul {
     align-items: center;
   }
 
-  .logo-title {
-    font-size: 32px;
-    line-height: 110%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #f1cdb3;
-  }
-
-  .font-arial {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  .font-georgia {
-    font-family: Georgia;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 0.06em;
-  }
-
   /*.logo-subtitle {
     padding-left: 4px;
     padding-top: 10px;
@@ -262,53 +252,10 @@ ul {
     letter-spacing: 0.1em;
   }*/
 
-  .wrapper-photo {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 100px;
-  }
-
-  h1 {
-    margin: 0px;
-  }
-
-  h2 {
-    margin: 0px;
-  }
-
   .header-list {
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
-  }
-
-  p {
-    margin: 0px;
-  }
-
-  .header-link {
-    font-size: 15px;
-    line-height: 160%;
-    color: #cdcdcd;
-    text-decoration: none;
-  }
-
-  .header-link:hover {
-    color: #fafafa;
-  }
-
-  li {
-    list-style: none;
-  }
-
-  ul {
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .link-active {
-    color: #fafafa;
   }
 
   .link-active-line {
@@ -398,5 +345,159 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .burger-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #f1cdb3;
+    z-index: 15;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    max-width: 320px;
+  }
+
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 30px;
+    height: 22px;
+
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .header-nav-close {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 45px;
+    right: 53px;
+    z-index: 16px;
+  }
+
+  .header-nav-close-line {
+    display: block;
+    height: 100%;
+    background-color: #f1cdb3;
+    width: 2px;
+    /*position: absolute;*/
+    /*top: 50%;*/
+  }
+
+  .header-nav-close-line:first-child {
+    /*transform: translateY(-50%) rotate(45deg); /*чтобы линии были по центру*/
+  }
+
+  .header-nav-close-line:last-child {
+    /*  transform: translateY(-50%) rotate(-45deg); /*чтобы линии были по центру*/
+  }
+
+  .header-nav {
+    position: fixed;
+    top: 0px;
+    /*left: 148px;*/
+    padding-top: 134px;
+    width: 320px;
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    transform: translateX(100%);
+    transition: 0.5s all linear;
+  }
+
+  .header-nav-open {
+    transform: translateX(0);
+  }
+
+  .header-container {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 43px;
+  }
+
+  .section-heading {
+    font-size: 25px;
+  }
+
+  .header-list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 243px;
+    /*padding-left: 127px;*/
+  }
+
+  .header-link {
+    font-size: 32px;
+
+    color: #cdcdcd;
+  }
+
+  .link-active-line {
+    width: 243px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logo-title {
+    /* color: #f1cdb3;*/
+  }
+
+  .heading {
+    font-size: 25px;
+  }
+
+  .start-screen-content {
+    padding-left: 0px;
+    align-items: center;
+  }
+
+  .button-padding {
+    padding-top: 42px;
+    padding-left: 0px;
+  }
+
+  .photo {
+    background-image: url("../../../assets/img/start-screen-puppy_320px.png");
+    width: 260px;
+    height: 271.77px;
+  }
+
+  .wrapper-photo {
+    padding-top: 105px;
+  }
+
+  .header-container {
+    /* padding-top: 60px;
+    padding-bottom: 60px;*/
+    background-image: url("../../../assets/img/start-screen-gradient-background_320.jpg");
   }
 }
