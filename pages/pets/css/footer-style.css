@@ -140,4 +140,10 @@
   .footer-photo {
     margin-top: 0px;
   }
+
+  .footer-photo {
+    width: 260px;
+    height: 269px;
+    background-image: url("../../../assets/img/footer-puppy_320px.png");
+  }
 }

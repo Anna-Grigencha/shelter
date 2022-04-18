@@ -287,3 +287,21 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .pets-card2 {
+    display: none;
+  }
+
+  .button-arrow {
+    order: 2;
+  }
+
+  .button-left {
+    margin-left: 58px;
+  }
+
+  .button-right {
+    margin-left: 80px;
+  }
+}
