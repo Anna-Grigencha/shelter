@@ -212,3 +212,34 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .our-friends-navigation-wrapper {
+    gap: 10px;
+    padding-top: 0px;
+  }
+
+  .pets-container {
+    background-color: #f6f6f6;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .pets-card4 {
+    display: none;
+  }
+
+  .pets-card5 {
+    display: none;
+  }
+
+  .pets-card6 {
+    display: none;
+  }
+}
