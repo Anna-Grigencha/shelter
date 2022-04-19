@@ -213,7 +213,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .our-friends-navigation-wrapper {
     gap: 10px;
     padding-top: 0px;
