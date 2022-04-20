@@ -107,6 +107,31 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .donation-dog {
+    width: 260px;
+    height: 135.2px;
+    background-image: url("../../../assets/img/donation-dog_320px.png");
+    align-self: center;
+  }
+
+  .donation-information {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 300px;
+    align-self: center;
+  }
+  .credit-card-content {
+    width: 281px;
+    height: 43px;
+    background: #f1cdb3;
+    border-radius: 9px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .donation-dog {
     width: 260px;
