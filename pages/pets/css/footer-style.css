@@ -106,7 +106,51 @@
 
 @media screen and (max-width: 375px) {
   .footer-container {
-    max-width: 320px;
+    max-width: 375px;
+    padding-top: 30px;
+    gap: 40px;
+  }
+
+  .footer-title {
+    font-size: 25px;
+  }
+
+  .contacts {
+    padding-top: 0px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .location {
+    padding-top: 0px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .location-boston-wrapper {
+    padding-top: 0px;
+  }
+
+  .location-london-wrapper {
+    padding-top: 0px;
+  }
+
+  .footer-photo {
+    margin-top: 0px;
+  }
+
+  .footer-photo {
+    width: 260px;
+    height: 269px;
+    background-image: url("../../../assets/img/footer-puppy_320px.png");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer-container {
+    max-width: 375px;
     padding-top: 30px;
     gap: 40px;
   }
