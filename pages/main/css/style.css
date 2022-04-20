@@ -21,6 +21,8 @@ body {
 
 .wrapper-photo {
   max-width: 1280px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header-container {
@@ -139,6 +141,7 @@ ul {
   padding-right: 40px;
   display: flex;
   justify-content: space-between;
+
   flex-wrap: wrap;
 }
 
@@ -225,13 +228,29 @@ ul {
 
 @media screen and (max-width: 1279px) {
   .wrapper-photo {
-    max-width: 600px;
+    max-width: 1279px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
   }
 
   .photo {
     background-image: url("../../../assets/img/start-screen-puppy_768px.png");
     width: 569px;
     height: 593px;
+  }
+
+  .start-screen-container {
+    /*background-image: url("../../../assets/img/start-screen-background_768px.jpg");
+    background-position: center 0 -120px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;*/
+    /*padding-top: 100px;*/
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
@@ -289,13 +308,16 @@ ul {
     padding-right: 30px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
   .wrapper-photo {
-    max-width: 600px;
+    max-width: 768px;
     padding-top: 100px;
-    padding-left: 140px;
+    /*padding-left: 140px;*/
+    display: flex;
+    justify-content: flex-end;
   }
 
   .photo {
@@ -384,7 +406,7 @@ ul {
 
 @media screen and (max-width: 767px) {
   .wrapper-photo {
-    max-width: 260px;
+    max-width: 767px;
   }
 
   .photo {
@@ -457,7 +479,7 @@ ul {
   .header-nav {
     position: fixed;
     top: 0px;
-    /*left: 148px;*/
+    left: 148px;
     padding-top: 134px;
     width: 375px;
     height: 100%;
@@ -526,7 +548,9 @@ ul {
   }
 
   .wrapper-photo {
-    max-width: 260px;
+    max-width: 375px;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .photo {
@@ -603,7 +627,7 @@ ul {
   .header-nav {
     position: fixed;
     top: 0px;
-    /*left: 148px;*/
+    left: 148px;
     padding-top: 134px;
     width: 320px;
     height: 100%;
@@ -672,7 +696,9 @@ ul {
   }
 
   .wrapper-photo {
-    max-width: 260px;
+    max-width: 320px;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .photo {
