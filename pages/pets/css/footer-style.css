@@ -131,10 +131,12 @@
 
   .location-boston-wrapper {
     padding-top: 0px;
+    align-self: flex-start;
   }
 
   .location-london-wrapper {
     padding-top: 0px;
+    align-self: flex-start;
   }
 
   .footer-photo {
@@ -175,10 +177,12 @@
 
   .location-boston-wrapper {
     padding-top: 0px;
+    align-self: flex-start;
   }
 
   .location-london-wrapper {
     padding-top: 0px;
+    align-self: flex-start;
   }
 
   .footer-photo {

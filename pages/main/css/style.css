@@ -224,7 +224,6 @@ ul {
 }
 
 @media screen and (max-width: 1279px) {
-
   .wrapper-photo {
     max-width: 600px;
   }
@@ -293,9 +292,10 @@ ul {
     flex-wrap: wrap;
   }
 
-
   .wrapper-photo {
     max-width: 600px;
+    padding-top: 100px;
+    padding-left: 140px;
   }
 
   .photo {
@@ -383,11 +383,9 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
-
   .wrapper-photo {
     max-width: 260px;
-  } 
-
+  }
 
   .photo {
     background-image: url("../../../assets/img/start-screen-puppy_320px.png");
@@ -398,7 +396,8 @@ ul {
 
   .button-padding {
     /*padding-top: 42px;*/
-     padding-left: 0px;
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -546,7 +545,6 @@ ul {
     /*background-image: url("../../../assets/img/start-screen-gradient-background_320.jpg");*/
   }
 }
-
 
 @media screen and (max-width: 320px) {
   .content {
