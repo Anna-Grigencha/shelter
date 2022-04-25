@@ -164,6 +164,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 12px;
   }
@@ -298,7 +299,7 @@
   }
 
   .button-left {
-    margin-left: 58px;
+    /*margin-left: 58px;*/
   }
 
   .button-right {
