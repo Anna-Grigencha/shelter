@@ -218,6 +218,10 @@ ul {
   display: none;
 }
 
+.burger-logo {
+  display: none;
+}
+
 .burger-line {
   position: absolute;
   width: 30px;
@@ -429,6 +433,13 @@ ul {
     z-index: 100;
   }
 
+  .burger-logo {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+
   .header-nav {
     position: fixed;
     top: 0px;
@@ -463,7 +474,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    width: 243px;
+    /*width: 243px;*/
   }
 
   .header-link {
