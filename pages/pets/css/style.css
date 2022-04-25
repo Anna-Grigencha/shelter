@@ -256,7 +256,7 @@ ul {
     position: fixed;
     top: 0px;
     right: -320px;
-    padding-top: 134px;
+    padding-top: 120px;
     width: 320px;
     height: 100%;
     background-color: black;
@@ -286,6 +286,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    padding-top: 128px;
     /*width: 243px;*/
   }
 
